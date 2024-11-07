@@ -1,0 +1,63 @@
+
+
+$no_algos: 6;
+
+*
+{// Body Styling
+body {
+    background-color: #f1d4a3;
+    font-family: Arial, sans-serif;
+    color: #302b2b;
+}
+
+// Navigation Bar
+header nav {
+    background-color: #3b3f44;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0; // Align at the bottom
+}
+
+.array-inputs, .header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3949ab;
+}
+
+// Array Bar Styling
+#array_container div {
+    background-color: #4caf50; // Green color for bars
+}
+
+// Complexity Containers
+.Complexity_Containers {
+    background-color: #ffffff;
+    border: 1px solid #d1d9e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.Sub_Heading {
+    color: #5c6bc0;
+}
+
+
+}
